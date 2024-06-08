@@ -59,16 +59,6 @@ class Program
         } 
         Console.WriteLine($"The smallest positive number is: {min}");
 
-        // int? smallestPositive = numbers.Where(n => n > 0).Min();
-        // if (smallestPositive.HasValue)
-        // {
-        //     Console.WriteLine($"The smallest positive number is: {smallestPositive.Value}");
-        // }
-        // else
-        // {
-        //     Console.WriteLine("There are no positive numbers in the list.");
-        // }
-
         // Sort the list and display it
         numbers.Sort();
         Console.WriteLine("The sorted list is:");
