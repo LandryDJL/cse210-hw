@@ -19,11 +19,6 @@ class Program
         job2._startYear = 2022;
         job2._endYear = 2023;
 
-        // Console.WriteLine();
-        // job1.DisplayjobDetails();
-        // job2.DisplayjobDetails();
-        // Console.WriteLine();
-
         Resume myResume = new Resume();
         myResume._name = "Alison Rose";
 
