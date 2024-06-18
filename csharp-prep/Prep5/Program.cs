@@ -1,5 +1,7 @@
 using System;
+using System.Diagnostics;
 
+[DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
 class Program
 {
     static void Main(string[] args)
@@ -45,4 +47,11 @@ class Program
     {
         Console.WriteLine($"{name}, the square of your number is {squaredNumber}");
     }
+
+    private string GetDebuggerDisplay()
+    {
+        return ToString();
+    }
 }
+
+
